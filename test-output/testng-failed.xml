@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="EbayScenarioComponent.EbayScenarioTests">
+        <methods>
+          <include name="ExplicitWait"/>
+          <include name="testAddcart"/>
+          <include name="testPurchasecart"/>
+          <include name="SetUPInit"/>
+          <include name="ExtentReports"/>
+          <include name="Stop_Server"/>
+          <include name="testDeletecart"/>
+          <include name="start_server"/>
+        </methods>
+      </class> <!-- EbayScenarioComponent.EbayScenarioTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
